@@ -1,0 +1,45 @@
+body{
+    background-color: #062b25;
+    color: #011d01;
+}
+div#content {
+    width: 50vw;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 10vw;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+div#bio{
+    font-family: "Helvetica", sans-serif;
+    font-weight: light;
+    text-align: justify;
+    margin-bottom: 20vh;
+}
+div#bio a {
+    color: steelblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.container{
+    width: 100%;
+    height: 470px;
+    overflow: hidden;
+}
+div.sub-container {
+    /*display: inline-block;*/
+    float: left;
+    width: 49%;
+}
+div.sub-container.right{
+    margin-left: 2%;
+}
+div#photos img{
+    width: 100%;
+    margin-top: 10px;
+}
+h1#title {
+    font-family: "Garamond", serif;
+    font-size: 100px;
+    margin: 0;
+}
